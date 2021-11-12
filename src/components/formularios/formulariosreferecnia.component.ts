@@ -10,6 +10,11 @@ export class FormulariosReferencia {
     @ViewChild('cajanumero2') cajanumero2: ElementRef;
     public suma: number;
 
+    constructor() {
+        this.suma = 0;
+
+    }
+
     sumarNumeros(): void {
         var num1 = this.cajanumero1.nativeElement.value;
         var num2 = this.cajanumero2.nativeElement.value;
