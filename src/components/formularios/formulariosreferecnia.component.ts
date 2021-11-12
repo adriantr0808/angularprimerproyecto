@@ -12,6 +12,8 @@ export class FormulariosReferencia {
 
     constructor() {
         this.suma = 0;
+        this.cajanumero1 = new ElementRef(0);
+        this.cajanumero2 = new ElementRef(0);
 
     }
 
